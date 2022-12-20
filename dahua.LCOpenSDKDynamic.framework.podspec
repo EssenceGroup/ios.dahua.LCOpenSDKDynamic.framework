@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "dahua.LCOpenSDKDynamic.framework"
-  s.version      = "2.0.4"
+  s.version      = "2.0.5"
   s.summary      = "Dahua LCOpenSDKDynamic Framework"
   s.description  = <<-DESC
     Dahua LCOpenSDKDynamic Framework Description
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT" }
   s.author    = "."
   s.platform     = :ios, "13.0"
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '16.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'VALID_ARCHS' => 'arm64 armv7', 'ARCHS' => 'arm64 armv7' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'VALID_ARCHS' => 'arm64 armv7', 'ARCHS' => 'arm64 armv7' }
   s.source_files = "LCOpenSDKDynamic.framework/Headers/**/*.h"
